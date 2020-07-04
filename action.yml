@@ -1,0 +1,5 @@
+name: "RuboCop"
+description: "Run RuboCop"
+runs:
+  using: "node12"
+  main: "index.js"

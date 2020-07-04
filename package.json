@@ -1,12 +1,19 @@
 {
   "name": "rubocop-action",
   "version": "1.0.0",
-  "description": "",
+  "description": "A GitHub Action to run RuboCop and post results as Checks",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Chris Fung <aergonaut@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@actions/core": "^1.2.4",
+    "@actions/github": "^4.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.1"
+  }
 }
