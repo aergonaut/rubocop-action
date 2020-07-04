@@ -4,6 +4,7 @@
   "description": "A GitHub Action to run RuboCop and post results as Checks",
   "main": "index.js",
   "scripts": {
+    "build": "rollup --config",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +15,8 @@
     "@actions/github": "^4.0.0"
   },
   "devDependencies": {
-    "parcel": "^2.0.0-beta.1"
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "rollup": "^2.18.2"
   }
 }
